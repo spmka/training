@@ -1,5 +1,7 @@
 # SPM KA Training
 
+* [Notwendige Instalationen](https://github.com/spmka/training#notwendige-installationen)
+
 ## Notwendige Installationen
 ### NodeJS und npm
   * node ist eine Javascript Runtime für Serverprozesse. 
