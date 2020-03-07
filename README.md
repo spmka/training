@@ -1,8 +1,8 @@
 # SPM KA Training
 
 * [Notwendige Installationen](https://github.com/spmka/training#notwendige-installationen)
-* [Visual Studio Code einrichten]()
-* [Die erste nodeJS Anwendung]()
+* [Visual Studio Code einrichten](https://github.com/spmka/training#visual-studio-code-einrichten)
+* [Die erste nodeJS Anwendung](https://github.com/spmka/training#die-erste-nodejs-anwendung)
 
 
 
