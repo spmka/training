@@ -1,39 +1,29 @@
 # SPM KA Training
 
-* [Notwendige Installationen](https://github.com/spmka/training#notwendige-installationen)
-* [Visual Studio Code einrichten](https://github.com/spmka/training#visual-studio-code-einrichten)
-* [Die erste nodeJS Anwendung](https://github.com/spmka/training#die-erste-nodejs-anwendung)
+* Do the [Necessary Installations](https://github.com/spmka/training#notwendige-installationen)
+* Then start with [Step 01](https://github.com/spmka/training/wiki)
 
-
-
-## Die erste nodeJS Anwendung
-
-## Visual Studio Code einrichten
-
-
-## Notwendige Installationen
-### NodeJS und npm
-  * node ist eine Javascript Runtime für Serverprozesse. 
-  * npm ist der node package manager ein Tool zum Verwalten und Herunterladen von Javascript Paketen.
-  * https://nodejs.org/en/ -> Die LTS Version herunterladen (aktuell: 12.16.1 LTS) und installieren.
+## Necessary Installations
+### NodeJS and npm
+  * nodeJS is a Javascript Runtime for serverprocessed. 
+  * npm is the node package manager a tool to manage and download Javascript packages.
+  * https://nodejs.org/en/ -> Download the LTS Version (currently: 12.16.1 LTS) and install it
   
-  #### Die Installation testen:
-  * Eine Kommandozeile (cmd.exe) öffnen.
-  * In ein beliebiges Verzeichnis wechseln.
-  * *node -- version* ausführen -> Die Versionsnummer sollte angezeigt werden.
-  * *npm --version* ausführen -> Die Versionsnummer sollte angezeigt werden.
+  #### Test the installation:
+  * Open a cmd shell (cmd.exe).
+  * Execute *node -- version* -> You should see the version number.
+  * Execute *npm --version* ausführen -> You should see the version number.
   
-  #### Den Proxy für npm confiogurieren:
-  * *npm config set proxy http://....:3128* eingeben.
-  * *npm config list* ausführen um die vorgenommene Einstellung zu prüfen, jetzt sollte es für npm möglich sein Pakete aus dem Internet zu laden.
+  #### Configure the proxy for npm:
+  * Execute *npm config set proxy http://....:3128*
+  * Execute *npm config list* aand check the displayed settings. Now it should be possible to download packages.
   
 ### Visual Studio Code
-  * Visual Studio Code ist eine frie IDE.
-  * https://code.visualstudio.com/ -> herunterladen und installieren.
+  * Visual Studio Code (VSCode) is a free IDE written in Javascript as an Electron App.
+  * Download and install VSCode https://code.visualstudio.com
   
 ### Angular
-  * Angular ist ein Framework zur Webbasierten Frontendentwicklung für Single Page Applications.
-  * Nachdem NodeJS und Visual Studio Code installiert sind wird das Angular CLI (Command Line Interface) installiert (siehe auch https://cli.angular.io/).
-  * Hierzu eine Kommandozeile (cmd.exe) öffnen.
-  * In ein beliebiges Verzeichnis wechseln.
-  * *npm install -g @angular/cli* ausführen, dieser Befehl installiert das Anglular CLI global (-g) also unabhängig von einem konkreten Projekt.
+  * Angular is a Framework for webbased frontend development for Single Page Applications (SPA).
+  * Install the Angular CLI (Command Line Interface) (see also https://cli.angular.io/):
+  * Open a cmd shell (cmd.exe).
+  * Execute *npm install -g @angular/cli*, this command installs the Anglular CLI global (-g) that means independent of a concrete project.
