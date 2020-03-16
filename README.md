@@ -1,6 +1,6 @@
 # SPM KA Training
 
-* Do the [Necessary Installations](https://github.com/spmka/training#notwendige-installationen)
+* Do the necessary installations below
 * Then start with [Step 01](https://github.com/spmka/training/wiki)
 
 ## Necessary Installations
