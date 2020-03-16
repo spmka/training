@@ -7,7 +7,7 @@
 ### NodeJS and npm
   * nodeJS is a Javascript Runtime for serverprocessed. 
   * npm is the node package manager a tool to manage and download Javascript packages.
-  * https://nodejs.org/en/ -> Download the LTS Version (currently: 12.16.1 LTS) and install it
+  * https://nodejs.org/en -> Download the LTS Version (currently: 12.16.1 LTS) and install it
   
   #### Test the installation:
   * Open a cmd shell (cmd.exe).
@@ -24,6 +24,6 @@
   
 ### Angular
   * Angular is a Framework for webbased frontend development for Single Page Applications (SPA).
-  * Install the Angular CLI (Command Line Interface) (see also https://cli.angular.io/):
+  * Install the Angular CLI (Command Line Interface) (see also https://cli.angular.io):
   * Open a cmd shell (cmd.exe).
   * Execute *npm install -g @angular/cli*, this command installs the Anglular CLI global (-g) that means independent of a concrete project.
