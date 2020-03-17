@@ -32,7 +32,7 @@ class Server {
     this.expressServer.listen(this.port, () => console.log(`Server is listening on port ${this.port}`));
   }
 
-  /** Sets up all endpoints (route) we want tu use */
+  /** Sets up all endpoints (routes) we want to use */
   private setupRoutes() {
     // We set up a endpoint for a http GET and the URL "/"
     // Wen this endpoint is hit the defined anonymous function is executed with the parameters req and res  
