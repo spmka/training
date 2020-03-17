@@ -1,5 +1,5 @@
 import * as express from 'express';
-import {Express, Request, Response} from 'express-serve-static-core'
+import {Express, Request, Response} from 'express'
 
 /** The control tower data server */
 class Server {
