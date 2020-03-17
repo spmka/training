@@ -3,7 +3,7 @@ import {Express, Request, Response} from 'express'
 
 /** The control tower data server */
 class Server {
-  /** The ExpressJSserver */
+  /** The ExpressJS server */
   private expressServer: Express;
   /** All the systems we know as a constant (readonly) property of this class */
   private readonly systems = [
