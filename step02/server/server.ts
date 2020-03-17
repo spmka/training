@@ -5,7 +5,7 @@ import {Express, Request, Response} from 'express-serve-static-core'
 class Server {
   /** The ExpressJSserver */
   private expressServer: Express;
-  /** All teh systems we know as a constant (readonly) property of this class */
+  /** All the systems we know as a constant (readonly) property of this class */
   private readonly systems = [
     {id: 1, name: 'Logistikbus'},
     {id: 2, name: 'ELS'},
