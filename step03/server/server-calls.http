@@ -1,14 +1,3 @@
-GET http://localhost:5000
-
-###
-
-GET http://localhost:5000/hello
-
-###
-
-GET http://localhost:5000/message
-
-###
 GET http://localhost:5000/logistic-systems
 
 ###
@@ -16,3 +5,9 @@ GET http://localhost:5000/logistic-systems/2
 
 ###
 GET http://localhost:5000/logistic-systems/10
+
+###
+GET http://localhost:5000/log-entries
+
+###
+GET http://localhost:5000/hardware-usages

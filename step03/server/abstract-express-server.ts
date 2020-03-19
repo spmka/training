@@ -4,8 +4,6 @@ import {Express, Request, Response, Router} from 'express';
 export abstract class AbstractExpressServer {
   /** The ExpressJS server */
   protected expressServer: Express;
-  /** The ExpressJS router */
-  protected expressRouter: Router;
 
   /**
    * Constructor.
@@ -13,16 +11,15 @@ export abstract class AbstractExpressServer {
    */
   constructor(protected port: number) {
     this.expressServer = express();
-    this.expressRouter = express.Router();
     this.expressServer.use(express.json())
   }
 
-  /** Sets up all endpoints (routes) the server should use */
-  protected abstract setupRoutes();
+  /** Sets up all end points (or routes) the server should use */
+  protected abstract setupEndPoints();
 
   /** Setup routes and start the server on the defined port */
   public start() {
-    this.setupRoutes();
+    this.setupEndPoints();
     this.expressServer.listen(this.port, () =>
       console.log(`Server is listening on port ${this.port}`));
   }
