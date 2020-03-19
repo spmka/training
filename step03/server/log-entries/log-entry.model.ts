@@ -1,9 +1,9 @@
 /** Definition of log levels */
 export enum LogLevel {
-  debug,
-  info,
-  warning,
-  error
+  Debug = 'Debug',
+  Info = 'Info',
+  Warning = 'Warning',
+  Error = 'Error'
 }
 
 /** Definition of a log entry */
