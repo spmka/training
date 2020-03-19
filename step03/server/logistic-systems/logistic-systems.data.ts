@@ -1,5 +1,6 @@
 import {LogisticSystemList} from './logistic-system.model';
 
+/** All our logistic system we want to monitor */
 export const logisticSystems: LogisticSystemList = [
   {id: 1, name: 'Logistikbus'},
   {id: 2, name: 'ELS'},
