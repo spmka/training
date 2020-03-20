@@ -23,9 +23,20 @@ export class AppComponent implements OnInit {
     this.loadLogisticSystems();
   }
 
-  /** Load all logistic systems from the server */
-  private loadLogisticSystems() {
+  /** Load all logistic systems from the server in 3 possible ways */
+  private async loadLogisticSystems() {
+    console.log('Before get().subscribe');
     this.http.get<LogisticSystemList>('/api/logistic-systems')
-      .subscribe(logisticSystems => console.log(logisticSystems));
+      .subscribe(logisticSystems1 => console.log('After get().subscribe()', logisticSystems1));
+
+    console.log('Before get().toPromise().then()');
+    this.http.get<LogisticSystemList>('/api/logistic-systems').toPromise()
+      .then(logisticSystems2 => console.log('After get().toPromise().then()', logisticSystems2));
+
+    console.log('Before await get().toPromise()');
+    const logisticSystems3: LogisticSystemList =
+      await this.http.get<LogisticSystemList>('/api/logistic-systems').toPromise();
+    console.log('After await get().toPromise()', logisticSystems3);
   }
+
 }
