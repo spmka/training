@@ -39,9 +39,10 @@ export class AppComponent implements OnInit {
     }
 
     console.log('\n\n===== ngOnInit() loading logistic systems with error...');
-    // const logisticSystems3 = await this.logisticSystemsService.loadLogisticSystemsWithError();
-    // console.log('===== ngOnInit() done loading logistic systems with error', logisticSystems3);
+    const logisticSystems3 = await this.logisticSystemsService.loadLogisticSystemsWithError();
+    console.log('===== ngOnInit() done loading logistic systems with error', logisticSystems3);
 
+    // We never reach this line of code because above an uncatched error was thrown
     console.log('===== ngOnInit() this line of code is never reached!');
   }
 
