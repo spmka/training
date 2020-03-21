@@ -31,11 +31,10 @@
 
 ## How to download files for a step
 * Go to https://github.com/spmka/training
-* Select 
+* Select *Clone or Download* and in the appearing dialog select *Download as zip*
 
-
-[[https://github.com/spmka/training/blob/master/doc/images/init-server.jpg]]
-
-
-
-    [[https://github.com/spmka/training/blob/master/doc/images/download.jpg]]
+    ![](https://github.com/spmka/training/blob/master/doc/images/download.jpg)
+    
+ * Extract the zip
+ * Copy the files of the step you are interested in into your working directory
+ * Optional if not done before, run the command *npm install* to create the nod_modules folder for the needed external packages 
