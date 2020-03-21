@@ -1,8 +1,8 @@
 # SPM KA Training
 
 * Do the necessary installations below
-* Read how to download files for a step
 * Then start with [Step 01](https://github.com/spmka/training/wiki)
+* If you want to use the files for a step, read how to download files for a step at the bottom
 
 ## Necessary Installations
 ### NodeJS and npm
