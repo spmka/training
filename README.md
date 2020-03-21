@@ -1,6 +1,7 @@
 # SPM KA Training
 
 * Do the necessary installations below
+* Read how to download files for a step
 * Then start with [Step 01](https://github.com/spmka/training/wiki)
 
 ## Necessary Installations
@@ -27,3 +28,14 @@
   * Install the Angular CLI (Command Line Interface) (see also https://cli.angular.io):
   * Open a cmd shell (cmd.exe).
   * Execute *npm install -g @angular/cli*, this command installs the Anglular CLI global (-g) that means independent of a concrete project.
+
+## How to download files for a step
+* Go to https://github.com/spmka/training
+* Select 
+
+
+[[https://github.com/spmka/training/blob/master/doc/images/init-server.jpg]]
+
+
+
+    [[https://github.com/spmka/training/blob/master/doc/images/download.jpg]]
