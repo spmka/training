@@ -1,0 +1,29 @@
+// this is the style definition for the component, the most outer element
+:host {
+  display: block;
+  padding: 10px;
+  background-color: #303030;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+// This is a style definition for an element (no . at the beginning)
+div {
+  padding: 10px;
+
+  // span elements inside a div that follow a span element shhould have a left margin
+  span ~ span {
+    margin-left: 10px;
+  }
+}
+
+// This is a css class definition
+.box {
+  border: 1px solid #555555;
+
+  // an element that has the style ".box" and follows an element with style ".box" gets a top margin
+  & ~ .box {
+    margin-top: 5px;
+  }
+}
+

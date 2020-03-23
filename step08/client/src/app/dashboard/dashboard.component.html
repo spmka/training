@@ -1,0 +1,7 @@
+<div *ngIf="logisticSystems.length === 0">
+  <span>No logistic systems found!</span>
+</div>
+<div class="box" *ngFor="let logisticSystem of logisticSystems">
+  <span>{{logisticSystem.id}}</span>
+  <span>{{logisticSystem.name}}</span>
+</div>

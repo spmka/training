@@ -1,0 +1,24 @@
+:host {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: rgb(16, 16, 191);
+  color: #cccccc;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  & ~ button {
+    margin-left: 10px;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.active-route {
+  transform: translateX(10px) scale(1.2);
+ }
