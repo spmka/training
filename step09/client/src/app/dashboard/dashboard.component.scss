@@ -1,0 +1,37 @@
+// this is the style definition for the component, the most outer element
+:host {
+  display: block;
+  padding: 10px;
+}
+
+mat-card {
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+mat-card-content {
+  // We arrange the content in a grid
+  display: grid;
+  // We have 3 columns, the first get's all available space the others the space that's needed
+  grid-template-columns: 1fr auto auto;
+  // We have 1 row, the height is as needed by the contained elements
+  grid-template-rows: auto;
+  // Between columns we want a gap of 10px
+  grid-column-gap: 10px;
+  // All items will be horizontally positioned at the beginning of their cell
+  justify-items: start;
+  // All items will be vertically centered in their cell
+  align-items: center;
+
+  // We increase the font-size of the mat-card-content container to show the difference between em and rem in the spann
+  font-size: 2em;
+
+  span {
+    // We increas the font of the span content to 150% of the base font defined in the body element -> rem (root em)
+    font-size: 1.5rem;
+    // This will increase the font to 150% of the font size defined in the parent container of this element 
+    // Because of the 2em in theparent element the 150% increase here is based on the 200% increase of the parent -> 300%
+    // font-size: 1.5em;
+  }
+}
+

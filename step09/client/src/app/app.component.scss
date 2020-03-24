@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  padding: 10px;
+}
+
+button ~ button {
+  margin-left: 10px;
+}
+
+.active-route {
+  transform: translateX(10px) scale(1.2);
+  margin-bottom: 10px;
+}
