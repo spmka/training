@@ -23,7 +23,7 @@ export class DashboardComponent implements OnInit {
   /** Angular life cycle method */
   public async ngOnInit() {
     const result = await this.logisticSystemsService.loadLogisticSystems();
-    if (result.isOk) {
+    if (result.isOk()) {
       this.logisticSystems = result.getValue();
     }
   }
