@@ -1,0 +1,40 @@
+// We animate from top to bottom
+@keyframes appear-from-top {
+  // We start with a complete transparent unvisible element (this component), 
+  // that is shiftet 100% (it's complete height) to the top (out of the screen)
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  // The animation ends with a complete visible element that sits on its defined (original) y position
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+// We animate from left to right
+@keyframes appear-from-left {
+  // We start with a complete transparent unvisible element (here a button), 
+  // that is shiftet 100% to the left (out of the screen)
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  // At this point we have the element nearly complete visible and we shift it 
+  // 10px to the right to have a small rebounce effect
+  80% {
+    opacity: 0.8;
+    transform: translateX(10px);
+  }
+  // Now we do a small rebounce to the left before we complete the animation
+  95% {
+    opacity: 0.95;
+    transform: translateX(-4px);
+  }
+  // Now we move the element to its original position and make it fully visible
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
