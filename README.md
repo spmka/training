@@ -17,7 +17,7 @@
   
   #### Configure the proxy for npm:
   * Execute *npm config set proxy http://....:3128*
-  * Execute *npm config list* aand check the displayed settings. Now it should be possible to download packages.
+  * Execute *npm config list* and check the displayed settings. Now it should be possible to download packages.
   
 ### Install Visual Studio Code
   * Visual Studio Code (VSCode) is a free IDE written in Javascript as an Electron App.
