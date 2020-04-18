@@ -1,4 +1,4 @@
-import {Router, Request, Response} from 'express';
+import {Request, Response} from 'express';
 import {AbstractEndPointController} from '../abstract-end-point-controller';
 import {hardwareUsages} from './hardware-usages.data';
 
