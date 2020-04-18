@@ -1,0 +1,38 @@
+@import 'styles/animations.scss';
+
+:host {
+  // This is the duration for our animations
+  --animation-duration: 600ms;
+  // We define the timing function for all our animations
+  --animation-timing-funtion: ease-in-out;
+
+  display: block;
+  padding: 10px;
+
+  // This is the name of the animation we want to use
+  animation-name: appear-from-top;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-funtion);
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+button {
+  animation-name: appear-from-left;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-funtion);
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateX(-200px);
+
+  ~ button {
+    margin-left: 10px;
+  }
+}
+
+.active-route {
+  // The active route gets more saturated colors
+  filter: saturate(200%);
+}
