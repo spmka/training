@@ -1,0 +1,8 @@
+<h1>Log Entries for System {{logisticSystem?.name}} ({{logisticSystem?.id}})</h1>
+<ng-container *ngFor="let logEntry of logEntries">
+  <div [class]="logEntry.level">
+    <span>Timestamp: {{logEntry.timestamp}}</span>
+    <span>{{logEntry.level}}</span>
+    <span>{{logEntry.message}}</span>
+  </div>
+</ng-container>

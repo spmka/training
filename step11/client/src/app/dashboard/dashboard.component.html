@@ -1,0 +1,22 @@
+<div *ngIf="logisticSystems.length === 0">
+  <mat-card>
+    <mat-card-title>Error</mat-card-title>
+    <mat-card-content>No logistic systems found!</mat-card-content>
+  </mat-card>
+</div>
+
+<div class="chart-container" echarts [options]="chartOptions"></div>
+
+<mat-card *ngFor="let logisticSystem of logisticSystems">
+  <mat-card-title>{{logisticSystem.name}}
+  </mat-card-title>
+  <mat-card-content>
+    <span>Id: {{logisticSystem.id}}</span>
+    <button mat-icon-button [routerLink]="['/log-entries', logisticSystem.id]">
+      <mat-icon color="primary">bug_report</mat-icon>
+    </button>
+    <button mat-icon-button (click)="onShowHardwareUsage(logisticSystem)">
+      <mat-icon color="accent">speed</mat-icon>
+    </button>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,39 @@
+.Debug {
+  color: green;
+}
+
+.Info {
+  color: lightblue;
+}
+
+.Warning {
+  color: orange;
+}
+
+.Error {
+  color: red;
+}
+
+div {
+  margin: 20px;
+
+  span {
+    padding: 5px;
+  }
+
+  span:nth-child(1)  {
+    font-weight: bold;
+    border: solid 1px;
+  }
+
+  span:nth-child(2)  {
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  span:nth-child(3)  {
+    color: grey;
+  }
+}
+

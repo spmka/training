@@ -1,0 +1,9 @@
+<h1>Hardware Usage for System {{loisticSystem.name}} ({{loisticSystem.id}})</h1>
+<ng-container *ngFor="let hardwareUsage of hardwareusages">
+  Timestamp: {{hardwareUsage.timestamp}}
+    <ul>
+      <li>Threads: {{hardwareUsage.threads}}</li>
+      <li>CPU: {{hardwareUsage.cpuUsage}}</li>
+      <li>Disk: {{hardwareUsage.diskUsageGB}}</li>
+    </ul>
+</ng-container>
