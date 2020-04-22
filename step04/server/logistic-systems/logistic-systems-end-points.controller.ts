@@ -1,6 +1,6 @@
 import {Router, Request, Response} from 'express';
 import {logisticSystems} from './logistic-systems.data';
-import {AbstractEndPointController} from '../abstract-end-point.controller';
+import {AbstractEndPointController} from '../abstract-end-points.controller';
 
 /** Defines all routes belonging to our logistic systems */
 export class LogisticSystemsEndPointsController extends AbstractEndPointController {

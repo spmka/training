@@ -1,7 +1,7 @@
 import {AbstractExpressServer} from './abstract-express-server';
 import {LogEntriesEndPointsController} from './log-entries/log-entries.end-points.controller';
 import {LogisticSystemsEndPointsController} from './logistic-systems/logistic-systems-end-points.controller';
-import {HardwareUsageEndPointsController} from './hardware-usages/hardware-usage-end-point.controller';
+import {HardwareUsageEndPointsController} from './hardware-usages/hardware-usage-end-points.controller';
 
 
 /** The control tower data server */
