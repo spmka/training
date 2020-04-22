@@ -1,15 +1,15 @@
 import {Request, Response} from 'express';
 import {AbstractEndPointsController} from '../abstract-end-points.controller';
-import {logEntries} from './log-entries.data';
+import {hardwareUsages} from './hardware-usages.data';
 
 /** Defines all routes belonging to log entries */
-export class LogEntriesEndPointsController extends AbstractEndPointsController{
+export class HardwareUsageEndPointsController extends AbstractEndPointsController{
 
-  /** Set up our log entries end points */
+  /** Set up our hardware usages end points */
   protected setupEndPoints() {
-    // We return the JSON object (array of log entries)
+    // We return the JSON object (array of hardware usages)
     this.expressRouter.get('/', (req: Request, res: Response) => {
-      res.send(logEntries);
+      res.send(hardwareUsages);
     });
   }
 }
