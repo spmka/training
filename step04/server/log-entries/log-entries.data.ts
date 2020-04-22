@@ -17,4 +17,5 @@ chance.mixin({
 });
 
 /** Some log entries to play with */
-export const logEntries: LogEntryList = chance.n((chance as any).logEntry, 1000);
+export const logEntries: LogEntryList = 
+  chance.n((chance as any).logEntry, 500);

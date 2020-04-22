@@ -1,5 +1,5 @@
 import {Router, Request, Response} from 'express';
-import {AbstractEndPointController} from '../abstract-end-point-controller';
+import {AbstractEndPointController} from '../abstract-end-point.controller';
 import {hardwareUsages} from './hardware-usages.data';
 
 /** Defines all routes belonging to log entries */

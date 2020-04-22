@@ -18,4 +18,5 @@ chance.mixin({
 });
 
 /** Some log entries to play with */
-export const hardwareUsages: HardwareUsageList = chance.n((chance as any).hardwareUsage, 1000);
+export const hardwareUsages: HardwareUsageList = 
+  chance.n((chance as any).hardwareUsage, 500);
