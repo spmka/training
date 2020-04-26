@@ -54,6 +54,14 @@
 * [cypress.io](https://www.youtube.com/channel/UC-EOsTo2l2x39e4JmSaWNRQ/featured)
 
 ## Youtube Videos
+
+### Typescript
+* [Fireship](https://www.youtube.com/watch?v=ahCwqrYpIuM)
+
+### CSS
+* [Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI)
+* [Web Dev Simplified](https://www.youtube.com/watch?v=1PnVor36_40)
+
 ### CSS Grid
 * [ng-conf 2019](https://www.youtube.com/watch?v=lh6n0JxXD_g)
 * [Fireship](https://www.youtube.com/watch?v=705XCEruZFs)
@@ -65,6 +73,8 @@
 
 ### Async Await
 * [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqEo)
+* [Traversy Media](https://www.youtube.com/watch?v=rAy_3SIqT-E)
+* [Academind](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 
 ### Reactive Forms
 * [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqE)
