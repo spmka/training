@@ -3,6 +3,7 @@
 * Do the necessary installations below
 * Then start with [Step 01](https://github.com/spmka/training/wiki)
 * If you want to use the files for a step, read how to download files for a step at the bottom
+* Some helpful youtube channels are listed at the bottom of this page
 
 ## Necessary Installations
 ### Install Node.js and npm
@@ -39,3 +40,33 @@
  * Extract the zip
  * Copy the files of the step you are interested in into your working directory
  * Optional if not done before, run the command *npm install* to create the nod_modules folder for the needed external packages 
+ 
+## Youtube Channels
+### Angular / Typescript / Javascript / CSS
+* [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists)
+* [Traversy Media](https://www.youtube.com/user/TechGuyWeb/playlists)
+* [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/playlists)
+* [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw/playlists)
+### Angular Conferences
+* [ng-conf](https://www.youtube.com/user/ngconfvideos/featured)
+* [Angular Connect](https://www.youtube.com/channel/UCzrskTiT_ObAk3xBkVxMz5g/playlists)
+### Testing
+* [cypress.io](https://www.youtube.com/channel/UC-EOsTo2l2x39e4JmSaWNRQ/featured)
+
+## Youtube Videos
+### CSS Grid
+* [ng-conf 2019](https://www.youtube.com/watch?v=lh6n0JxXD_g)
+* [Fireship](https://www.youtube.com/watch?v=705XCEruZFs)
+* [Web Dev Simplified](https://www.youtube.com/watch?v=9zBsdzdE4sM)
+* [Traversy Media](https://www.youtube.com/watch?v=jV8B24rSN5o)
+
+### Event Loop
+* [Jake Archibald](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
+
+### Async Await
+* [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqEo)
+
+### Reactive Forms
+* [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqE)
+* [ng-conf 2019](https://www.youtube.com/watch?v=Rq4vjSkidPk)
+* [Angular Connect 2017](https://www.youtube.com/watch?v=CD_t3m2WMM8)
