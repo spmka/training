@@ -16,7 +16,7 @@ export class HardwareUsageComponent implements OnInit {
   /** The list of hardware usages */
   public hardwareusages: HardwareUsageList;
   /** The current logistic system */
-  public loisticSystem: LogisticSystem;
+  public logisticSystem: LogisticSystem;
   /** The list of threads as a part of the hardware usage */
   public threadUsageList: ThreadUsageList;
   /** The list of cpu usages as a part of the hardware usage */
@@ -35,7 +35,7 @@ export class HardwareUsageComponent implements OnInit {
   /** Angular lifer cycle method */
   public ngOnInit() {
     this.route.paramMap.subscribe(async paramMap => {
-      this.loisticSystem = {
+      this.logisticSystem = {
         id: +paramMap.get('id'),
         name: paramMap.get('name')
       };
@@ -48,7 +48,7 @@ export class HardwareUsageComponent implements OnInit {
    * Loads the hardware usage data for the logistic system.
    */
   private async loadHardwareUsage() {
-    const result = await this.hardWareUsageService.loadHardwareUsageData(this.loisticSystem.id);
+    const result = await this.hardWareUsageService.loadHardwareUsageData(this.logisticSystem.id);
     if (result.isOk()) {
       this.hardwareusages = result.getValue();
       // Why is ({}) used in the next statement? 

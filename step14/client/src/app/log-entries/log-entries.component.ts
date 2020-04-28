@@ -48,11 +48,19 @@ export class LogEntriesComponent implements OnInit {
     });
   }
 
+  /**
+   * Called when a system is selected
+   * @param system the selected system.
+   */
   public async onSystemChange(system: LogisticSystem) {
     this.logisticSystem = system;
     await this.loadLogEntries(system.id);
   }
 
+  /**
+   * Called when a new filter string is entered.
+   * @param filter the entered filter string.
+   */
   public onFilterChange(filter: string) {
     this.filteredLogEntries = this.logEntries
       .filter(logEntry => logEntry.message.toLowerCase().includes(filter.toLowerCase()));
