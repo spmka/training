@@ -1,0 +1,47 @@
+.Debug {
+  color: green;
+}
+
+.Info {
+  color: lightblue;
+}
+
+.Warning {
+  color: orange;
+}
+
+.Error {
+  color: red;
+}
+
+.error-level {
+  font-size: 1.5em;
+}
+
+.warning-level {
+  font-size: 1.2em;
+}
+
+div {
+  padding: 15px;
+
+  span {
+    padding: 5px;
+  }
+
+  span:nth-child(1)  {
+    font-weight: bold;
+    border: solid 1px;
+  }
+
+  span:nth-child(2)  {
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  span:nth-child(3)  {
+    color: grey;
+  }
+}
+
