@@ -1,0 +1,26 @@
+<form [formGroup]="filterFormGroup" autocomplete="off">
+  <mat-form-field>
+    <mat-select placeholder="System" [formControlName]="formIds.logisticSystem">
+      <mat-option *ngFor="let system of logisticSystems" [value]="system">
+        {{system.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput placeholder="Filter Value" [formControlName]="formIds.logFilter">
+  </mat-form-field>
+</form>
+
+<pre>
+logisticSystem: {{filterFormGroup.value.logisticSystem ? 
+  filterFormGroup.value.logisticSystem.name + '(' + filterFormGroup.value.logisticSystem.id + ')' : 'empty'}}
+logFilter: {{filterFormGroup.value.logFilter}}
+valid: {{filterFormGroup.valid}}
+invalid: {{filterFormGroup.invalid}}
+pristine: {{filterFormGroup.pristine}}
+dirty: {{filterFormGroup.dirty}}
+touched: {{filterFormGroup.touched}}
+untouched: {{filterFormGroup.untouched}}
+lastEmit: {{lastEmit}}
+</pre>

@@ -1,0 +1,22 @@
+<h1>Log Entries for System {{logisticSystem?.name}} ({{logisticSystem?.id}})</h1>
+
+<app-log-entries-filter 
+  [logisticSystems]="logisticSystems"
+  (systemChange)="onSystemChange($event)"
+  (filterChange)="onFilterChange($event)">
+</app-log-entries-filter>
+
+<ng-container *ngFor="let logEntry of filteredLogEntries">
+  <div [class]="logEntry.level">
+    <span>Timestamp: {{logEntry.timestamp}}</span>
+    <!-- 
+      ngClass may be used for more complex style settings as class from above.
+      Multiple classes for one condition, object/property style notation... 
+    -->
+    <span
+      [ngClass]="{'error-level box': logEntry.level === 'Error', 'warning-level': logEntry.level === 'Warning'}">
+      {{logEntry.level}}
+    </span>
+    <span>{{logEntry.message}}</span>
+  </div>
+</ng-container>
