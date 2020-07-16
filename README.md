@@ -42,7 +42,8 @@
  * Optional if not done before, run the command *npm install* to create the nod_modules folder for the needed external packages 
  
 ## Javascript Exercises
-* * https://2sk10.csb.app
+* https://2sk10.csb.app
+
 ## Youtube Channels
 ### Angular / Typescript / Javascript / CSS
 * [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/playlists)
